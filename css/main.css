@@ -16,3 +16,20 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+body {
+  background-color: #e2e2e2;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
+  padding: .5em .75em;
+  background-color: #555;
+  color: white;
+}
+
+a:hover {
+  background-color: #000;
+}
