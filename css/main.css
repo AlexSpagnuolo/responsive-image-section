@@ -107,3 +107,16 @@ a:hover {
   }
 
 }
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.5;
+  }
+
+  .text {
+    max-width: 24rem;
+  }
+
+}
