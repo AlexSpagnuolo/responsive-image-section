@@ -84,6 +84,7 @@ a:hover {
     margin: 0;
     width: 48%;
     vertical-align: middle;
+    margin-top: 2rem;
   }
 
   .img-flex {
@@ -94,7 +95,15 @@ a:hover {
     display: inline-block;
     width: 50%;
     vertical-align: middle;
+    margin-top: 2rem;
+  }
+}
 
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
   }
 
 }
